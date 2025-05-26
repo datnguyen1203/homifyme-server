@@ -1,5 +1,5 @@
-const Room = require("../models/Room");
-const EntryHistory = require("../models/entryHistory");
+const Room = require("../Models/Room");
+const EntryHistory = require("../Models/entryHistory");
 const Payment = require("../Models/Payment");
 
 exports.getAllComments = async (req, res) => {
