@@ -1,5 +1,5 @@
 const Room = require("../Models/Room");
-const EntryHistory = require("../models/entryHistory");
+const EntryHistory = require("../Models/entryHistory");
 
 exports.sortAll = async (req, res) => {
   try {
